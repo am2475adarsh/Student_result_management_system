@@ -1,0 +1,26 @@
+FTP Username	epiz_30976284
+FTP Password
+eXy5ShLUAmBq
+FTP Hostname	ftpupload.net
+FTP Port (optional)	21
+
+MySQL Username	epiz_30976284
+MySQL Password
+eXy5ShLUAmBq
+MySQL Hostname	sql105.epizy.com
+MySQL Port (optional)	3306
+Database Name	epiz_30976284_XXX
+
+<?php
+//connect to database
+    $conn = mysqli_connect('sql105.epizy.com', 'epiz_30976284', 'eXy5ShLUAmBq', 'epiz_30976284_Arcadegaming');
+
+    //check connection
+    if(!$conn){
+        echo 'Connection error:' . mysqli_connect_error();
+    }
+
+    ?>
+    
+
+    
